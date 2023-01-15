@@ -1,5 +1,11 @@
 'use strict';
 
+const array = [];
+
+for (let i = 1; i <= 24000; i++) {
+	array.push(i);
+}
+
 const binarySearch = (arr, item) => {
 	let low = 0;
 	let high = arr.length - 1;
